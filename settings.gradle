@@ -1,0 +1,3 @@
+include ':BatteryMonitorLib'
+include ':app'
+rootProject.name = "BatteryMonitorLib"
