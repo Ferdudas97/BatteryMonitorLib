@@ -1,9 +1,10 @@
 package com.example.batterymonitorlib.db;
 
-import com.example.batterylibrary.MeasurementData;
-import com.example.batterylibrary.metrics.BatterySnapshot;
-import com.example.batterylibrary.metrics.Measure;
-import com.example.batterylibrary.metrics.MeasuredActionId;
+
+import com.example.batterymonitorlib.MeasurementData;
+import com.example.batterymonitorlib.metrics.BatterySnapshot;
+import com.example.batterymonitorlib.metrics.Measure;
+import com.example.batterymonitorlib.metrics.MeasuredActionId;
 
 import java.util.List;
 import java.util.UUID;
@@ -36,8 +37,8 @@ public class MeasurementRepository {
 
     }
 
-    private com.example.batterylibrary.MeasurementData mapToDomain(MeasureEntity entity) {
-        return new com.example.batterylibrary.MeasurementData(mapToDomain(entity.initialState),
+    private MeasurementData mapToDomain(MeasureEntity entity) {
+        return new MeasurementData(mapToDomain(entity.initialState),
                 mapToDomain(entity.endState),
                 entity.actionName,
                 entity.metricName,

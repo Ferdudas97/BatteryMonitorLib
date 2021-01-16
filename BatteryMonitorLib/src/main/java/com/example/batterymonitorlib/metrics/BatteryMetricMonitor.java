@@ -3,7 +3,7 @@ package com.example.batterymonitorlib.metrics;
 import android.content.Context;
 import android.os.BatteryManager;
 
-import com.example.batterylibrary.db.MeasurementRepository;
+import com.example.batterymonitorlib.db.MeasurementRepository;
 import com.facebook.battery.metrics.devicebattery.DeviceBatteryMetricsCollector;
 
 import java.util.ArrayList;

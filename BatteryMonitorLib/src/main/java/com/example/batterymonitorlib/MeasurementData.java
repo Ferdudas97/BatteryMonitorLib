@@ -1,7 +1,8 @@
 package com.example.batterymonitorlib;
 
-import com.example.batterylibrary.metrics.BatterySnapshot;
-import com.example.batterylibrary.metrics.MeasuredActionId;
+
+import com.example.batterymonitorlib.metrics.BatterySnapshot;
+import com.example.batterymonitorlib.metrics.MeasuredActionId;
 
 public class MeasurementData {
     private BatterySnapshot initialMetrics;
